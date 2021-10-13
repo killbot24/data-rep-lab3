@@ -33,7 +33,9 @@ render(){
         <div>
             <h1>This is the read Component</h1>
             <Movies movies={this.state.movies}></Movies>
+	
         </div>
+        	// Runs movies.js that then runs movieitem that for each new movie creates a card and fills in needed info
     );
 }
 }

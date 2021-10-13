@@ -27,14 +27,15 @@ class App extends Component {
   </Navbar>
   <br/>
   <Switch>
-<Route path='/' component={Content} exact/>//loads the content
-<Route path='/Create' component={Create} exact/>//loads the header
-<Route path='/read' component={Read} exact/>//loads the footer
+<Route path='/' component={Content} exact/>
+<Route path='/Create' component={Create} exact/>
+<Route path='/read' component={Read} exact/>
 
   </Switch>
 
      
     </div></Router>
+    //Adds a nav bar in & routeing for each section clicking on one will load the corrosponding component
   );
 }
 }
